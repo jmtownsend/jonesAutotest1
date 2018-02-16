@@ -1,0 +1,73 @@
+
+// // Fonts
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+//Template
+@import url("https://fonts.googleapis.com/css?family=Lato:400|Montserrat:400,700");
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:700');
+
+@import 'swiper';
+@import 'mixins';
+@import 'placeholders';
+@import 'icons';
+@import 'animate';
+@import 'carousels';
+@import 'awesome-checkbox-radios';
+@import 'global';
+@import 'buttons';
+@import 'forms';
+@import 'box';
+@import 'helpers';
+@import 'mega-menu';
+@import 'navbar';
+@import 'nav-tabs';
+@import 'header';
+@import 'footer';
+@import 'social';
+@import 'countdown';
+
+
+@import 'home';
+@import 'post';
+@import 'post-list';
+@import 'testimonials';
+
+@import 'bootstrap-select';
+@import 'developer';
+
+@import 'lightbox';
+@import 'blog';
+@import 'contact';
+@import 'offer';
+@import 'sidebar';
+@import 'about';
+@import 'services';
+
+//Override
+.offer-box {
+    margin-bottom: 0;
+}
+
+.offer-box-price {
+    font-size: 25px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
